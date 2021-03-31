@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.6.47, for Linux (x86_64)
 --
--- Host: localhost    Database: ecommerce
+-- Host: 35.193.214.114    Database: ecommerce
 -- ------------------------------------------------------
 -- Server version	5.6.47
 
@@ -1415,7 +1415,7 @@ CREATE TABLE `core_siteconfiguration` (
 
 LOCK TABLES `core_siteconfiguration` WRITE;
 /*!40000 ALTER TABLE `core_siteconfiguration` DISABLE KEYS */;
-INSERT INTO `core_siteconfiguration` VALUES (1,'http://edx.devstack.lms:18000',NULL,'cybersource,paypal',1,1,'{\"SOCIAL_AUTH_EDX_OAUTH2_PUBLIC_URL_ROOT\":\"http://localhost:18000\",\"SOCIAL_AUTH_EDX_OAUTH2_URL_ROOT\":\"http://edx.devstack.lms:18000\",\"SOCIAL_AUTH_EDX_OAUTH2_SECRET\":\"ecommerce-sso-secret\",\"BACKEND_SERVICE_EDX_OAUTH2_SECRET\":\"ecommerce-backend-service-secret\",\"SOCIAL_AUTH_EDX_OAUTH2_LOGOUT_URL\":\"http://edx.devstack.lms:18000/logout\",\"SOCIAL_AUTH_EDX_OAUTH2_ISSUERS\":[\"http://edx.devstack.lms:18000\"],\"BACKEND_SERVICE_EDX_OAUTH2_KEY\":\"ecommerce-backend-service-key\",\"SOCIAL_AUTH_EDX_OAUTH2_KEY\":\"ecommerce-sso-key\"}',NULL,'staff@example.com',0,'support@example.com','','','','cybersource',0,0,'','','',1,'',0,'',0,'http://edx.devstack.discovery:18381/api/v1/',0,0,'',0,NULL);
+INSERT INTO `core_siteconfiguration` VALUES (1,'http://edx.devstack.lms:18000',NULL,'cybersource,paypal',1,1,'{\"SOCIAL_AUTH_EDX_OAUTH2_PUBLIC_URL_ROOT\":\"http://35.193.214.114:18000\",\"SOCIAL_AUTH_EDX_OAUTH2_URL_ROOT\":\"http://edx.devstack.lms:18000\",\"SOCIAL_AUTH_EDX_OAUTH2_SECRET\":\"ecommerce-sso-secret\",\"BACKEND_SERVICE_EDX_OAUTH2_SECRET\":\"ecommerce-backend-service-secret\",\"SOCIAL_AUTH_EDX_OAUTH2_LOGOUT_URL\":\"http://edx.devstack.lms:18000/logout\",\"SOCIAL_AUTH_EDX_OAUTH2_ISSUERS\":[\"http://edx.devstack.lms:18000\"],\"BACKEND_SERVICE_EDX_OAUTH2_KEY\":\"ecommerce-backend-service-key\",\"SOCIAL_AUTH_EDX_OAUTH2_KEY\":\"ecommerce-sso-key\"}',NULL,'staff@example.com',0,'support@example.com','','','','cybersource',0,0,'','','',1,'',0,'',0,'http://edx.devstack.discovery:18381/api/v1/',0,0,'',0,NULL);
 /*!40000 ALTER TABLE `core_siteconfiguration` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1803,7 +1803,7 @@ CREATE TABLE `django_site` (
 
 LOCK TABLES `django_site` WRITE;
 /*!40000 ALTER TABLE `django_site` DISABLE KEYS */;
-INSERT INTO `django_site` VALUES (1,'localhost:18130','example.com');
+INSERT INTO `django_site` VALUES (1,'35.193.214.114:18130','example.com');
 /*!40000 ALTER TABLE `django_site` ENABLE KEYS */;
 UNLOCK TABLES;
 

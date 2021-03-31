@@ -58,17 +58,17 @@ run_check() {
 if should_check registrar; then
     echo "Checking Registrar heartbeat:"
     run_check registrar_heartbeat registrar \
-        "curl --fail -L http://localhost:18734/heartbeat"
+        "curl --fail -L http://35.193.214.114:18734/heartbeat"
 fi
 
 if should_check lms; then
     echo "Checking LMS heartbeat:"
     run_check lms_heartbeat lms \
-        "curl --fail -L http://localhost:18000/heartbeat"
+        "curl --fail -L http://35.193.214.114:18000/heartbeat"
 
     echo "Checking Studio heartbeat:"
     run_check studio_heartbeat lms \
-        "curl --fail -L http://localhost:18010/heartbeat"
+        "curl --fail -L http://35.193.214.114:18010/heartbeat"
 
     echo "Validating LMS volume:"
     run_check lms_volume lms \
@@ -78,37 +78,37 @@ fi
 if should_check ecommerce; then
     echo "Checking ecommerce health:"
     run_check ecommerce_heartbeat ecommerce \
-        "curl --fail -L http://localhost:18130/health/"
+        "curl --fail -L http://35.193.214.114:18130/health/"
 fi
 
 if should_check discovery; then
     echo "Checking discovery health:"
     run_check discovery_heartbeat discovery \
-        "curl --fail -L http://localhost:18381/health/"
+        "curl --fail -L http://35.193.214.114:18381/health/"
 fi
 
 if should_check forum; then
     echo "Checking forum heartbeat:"
     run_check forum_heartbeat forum \
-        "curl --fail -L http://localhost:44567/heartbeat"
+        "curl --fail -L http://35.193.214.114:44567/heartbeat"
 fi
 
 if should_check edx_notes_api; then
     echo "Checking edx_notes_api heartbeat:"
     run_check edx_notes_api_heartbeat edx_notes_api \
-        "curl --fail -L http://localhost:18120/heartbeat"
+        "curl --fail -L http://35.193.214.114:18120/heartbeat"
 fi
 
 if should_check credentials; then
     echo "Checking credentials heartbeat:"
     run_check credentials_heartbeat credentials \
-        "curl --fail -L http://localhost:18150/health"
+        "curl --fail -L http://35.193.214.114:18150/health"
 fi
 
 if should_check xqueue; then
     echo "Checking xqueue status:"
     run_check xqueue_heartbeat xqueue \
-        "curl --fail -L http://localhost:18040/xqueue/status"
+        "curl --fail -L http://35.193.214.114:18040/xqueue/status"
 fi
 
 echo "Successful checks:${succeeded:- NONE}"

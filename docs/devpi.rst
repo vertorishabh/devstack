@@ -19,7 +19,7 @@ operations after the first run. Container storage should persist through
 ``make dev.down`` and ``make dev.up`` operations.
 
 The devpi web interface can be browsed from the host at:
-http://localhost:3141/
+http://35.193.214.114:3141/
 
 Documentation for devpi is at:
 https://www.devpi.net/
@@ -62,4 +62,4 @@ Monitoring devpi
 You can monitor the devpi logs by running this command on the host:
 ``make devpi-logs`` or looking at the output in
 Kitematic. You can also check the devpi server status by visiting:
-http://localhost:3141/+status
+http://35.193.214.114:3141/+status

@@ -297,7 +297,7 @@ Service List
 ------------
 
 These are the edX services that Devstack can provision, pull, run, attach to, etc.
-Each service is accessible at ``localhost`` on a specific port.
+Each service is accessible at ``35.193.214.114`` on a specific port.
 The table below provides links to the homepage, API root, or API docs of each service,
 as well as links to the repository where each service's code lives.
 
@@ -311,37 +311,37 @@ Alternatively, you can run these by modifying the ``DEFAULT_SERVICES`` option as
 +------------------------------------+-------------------------------------+----------------+--------------+
 | Service                            | URL                                 | Type           | Role         |
 +====================================+=====================================+================+==============+
-| `lms`_                             | http://localhost:18000/             | Python/Django  | Default      |
+| `lms`_                             | http://35.193.214.114:18000/             | Python/Django  | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `studio`_                          | http://localhost:18010/             | Python/Django  | Default      |
+| `studio`_                          | http://35.193.214.114:18010/             | Python/Django  | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `forum`_                           | http://localhost:44567/api/v1/      | Ruby/Sinatra   | Default      |
+| `forum`_                           | http://35.193.214.114:44567/api/v1/      | Ruby/Sinatra   | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `discovery`_                       | http://localhost:18381/api-docs/    | Python/Django  | Default      |
+| `discovery`_                       | http://35.193.214.114:18381/api-docs/    | Python/Django  | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `ecommerce`_                       | http://localhost:18130/dashboard/   | Python/Django  | Default      |
+| `ecommerce`_                       | http://35.193.214.114:18130/dashboard/   | Python/Django  | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `credentials`_                     | http://localhost:18150/api/v2/      | Python/Django  | Default      |
+| `credentials`_                     | http://35.193.214.114:18150/api/v2/      | Python/Django  | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `edx_notes_api`_                   | http://localhost:18120/api/v1/      | Python/Django  | Default      |
+| `edx_notes_api`_                   | http://35.193.214.114:18120/api/v1/      | Python/Django  | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `frontend-app-payment`_            | http://localhost:1998/              | MFE (React.js) | Default      |
+| `frontend-app-payment`_            | http://35.193.214.114:1998/              | MFE (React.js) | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `frontend-app-publisher`_          | http://localhost:18400/             | MFE (React.js) | Default      |
+| `frontend-app-publisher`_          | http://35.193.214.114:18400/             | MFE (React.js) | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `gradebook`_                       | http://localhost:1994/              | MFE (React.js) | Default      |
+| `gradebook`_                       | http://35.193.214.114:1994/              | MFE (React.js) | Default      |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `registrar`_                       | http://localhost:18734/api-docs/    | Python/Django  | Extra        |
+| `registrar`_                       | http://35.193.214.114:18734/api-docs/    | Python/Django  | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `program-console`_                 | http://localhost:1976/              | MFE (React.js) | Extra        |
+| `program-console`_                 | http://35.193.214.114:1976/              | MFE (React.js) | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `frontend-app-learning`_           | http://localhost:2000/              | MFE (React.js) | Extra        |
+| `frontend-app-learning`_           | http://35.193.214.114:2000/              | MFE (React.js) | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `frontend-app-library-authoring`_  | http://localhost:3001/              | MFE (React.js) | Extra        |
+| `frontend-app-library-authoring`_  | http://35.193.214.114:3001/              | MFE (React.js) | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `course-authoring`_                | http://localhost:2001/              | MFE (React.js) | Extra        |
+| `course-authoring`_                | http://35.193.214.114:2001/              | MFE (React.js) | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
-| `xqueue`_                          | http://localhost:18040/api/v1/      | Python/Django  | Extra        |
+| `xqueue`_                          | http://35.193.214.114:18040/api/v1/      | Python/Django  | Extra        |
 +------------------------------------+-------------------------------------+----------------+--------------+
 
 .. _credentials: https://github.com/edx/credentials

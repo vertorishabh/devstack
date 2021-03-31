@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.6.47, for Linux (x86_64)
 --
--- Host: localhost    Database: edxapp_csmh
+-- Host: 35.193.214.114    Database: edxapp_csmh
 -- ------------------------------------------------------
 -- Server version	5.6.47
 

@@ -57,9 +57,9 @@ echo "== Setting up nfs..."
 
 # From catalina the directory has changed.
 if (( $(echo "$MAC_VERSION < $CATALINA_VERSION" |bc -l) )); then
-  LINE="/Users -alldirs -mapall=$U:$G localhost"
+  LINE="/Users -alldirs -mapall=$U:$G 35.193.214.114"
 else
-  LINE="/System/Volumes/Data -alldirs -mapall=$U:$G localhost"
+  LINE="/System/Volumes/Data -alldirs -mapall=$U:$G 35.193.214.114"
 fi
 
 FILE=/etc/exports
